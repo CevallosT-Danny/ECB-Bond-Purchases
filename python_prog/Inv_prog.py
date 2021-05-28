@@ -27,7 +27,7 @@ matplotlib.rcParams['text.color'] = 'k'
 # In[2]:
 
 
-bonds = pd.read_csv(r'C:/Users/Danny/Desktop/MDA_proyect/All_of_the_data.csv', header=0)
+bonds = pd.read_csv("https://github.com/Dansieg91/big_sets/raw/main/All_of_the_data.csv",header=0)
 bonds.head(n=3)
 
 
