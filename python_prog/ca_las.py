@@ -692,9 +692,9 @@ plt.close()
 # In[149]:
 
 
-Lasso0 = requests.get('https://github.com/Dansieg91/ECB-Bond-Purchases/raw/main/Plots/Lasso.png')
-Lasso = Image.open(BytesIO(Lasso0.content))
-Lasso
+Lasso_p0 = requests.get('https://github.com/Dansieg91/ECB-Bond-Purchases/raw/main/Plots/Lasso.png')
+Lasso_p = Image.open(BytesIO(Lasso0.content))
+Lasso_p
 
 
 # In[ ]:
