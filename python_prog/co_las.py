@@ -34,6 +34,7 @@ pd.set_option('display.max_rows', 100000)
 
 
 df=pd.read_csv("https://github.com/Dansieg91/ECB-Bond-Purchases/raw/main/Datasets/HISTORICAL_BONDS.csv",header=0)
+hist_bonds=df
 df.head(n=3)
 
 
