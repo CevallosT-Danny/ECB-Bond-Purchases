@@ -27,7 +27,7 @@ matplotlib.rcParams['text.color'] = 'k'
 # In[2]:
 
 
-bonds = pd.read_csv("https://www.dropbox.com/s/70ig02z77ranw6x/All_of_the_data.csv?dl=0",header=0)
+bonds = pd.read_csv("https://www.dropbox.com/s/70ig02z77ranw6x/All_of_the_data.csv?dl=1",header=0)
 bonds.head(n=3)
 
 
