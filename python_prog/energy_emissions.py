@@ -32,7 +32,7 @@ from PIL import Image
 # In[4]:
 
 
-bal = pd.read_csv("https://github.com/Dansieg91/big_sets/raw/main/nrg_bal_s.tsv", header=0,delimiter='\t')
+bal = pd.read_csv("https://www.dropbox.com/s/pz1i1qb62q5dzzg/nrg_bal_s.tsv?dl=1", header=0,delimiter='\t')
 baldf = pd.concat([bal.iloc[:,0].str.split(',', expand=True), bal.iloc[:,1:] ], axis=1)
 baldf.columns.values[list(range(0,4))] = ['item/sector','technology','unit','country']
 baldf
@@ -209,8 +209,7 @@ consp_plot2
 
 # In[50]:
 
-
-emiss = pd.read_csv("https://github.com/Dansieg91/big_sets/raw/main/env_air_gge.tsv", header=0,delimiter='\t')
+emiss = pd.read_csv("https://github.com/Dansieg91/ECB-Bond-Purchases/raw/main/Datasets/env_air_gge.tsv", header=0,delimiter='\t')
 emissdf = pd.concat([emiss.iloc[:,0].str.split(',', expand=True), emiss.iloc[:,1:] ], axis=1)
 emissdf.columns.values[list(range(0,4))] = ['unit', 'chem','sector','country']
 emissdf
